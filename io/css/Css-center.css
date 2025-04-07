@@ -2,4 +2,5 @@ body {
 background-color: black;
 font-family: Ginto, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 color: white;
+overflow: hidden;
 }
