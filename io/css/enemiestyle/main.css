@@ -1,0 +1,7 @@
+body {
+background-color: black;
+}
+#scene #background {
+background-image: url("backgroundinit.png");
+
+}
