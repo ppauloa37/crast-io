@@ -1,8 +1,13 @@
+var inputchat 
+
+  if (document.activeElement === inputchat) return;
+
 var button = document.getElementById("inventario");
 var onbuttonItClick = function() {
 inventarioopen.style.opacity = "1";
 
 }
+
 var onKeyPressed = function(event) {
     var inventarioopen = document.getElementById("invetory")
 
@@ -15,6 +20,10 @@ if (event.key === "e" || event.key === "E") {
 
 } if (event.key === "w") {
 inventarioopen.style.opacity = "0";
+}
+if (event.key === "t" || event.key === "T") {
+
+}
 }
 
 
